@@ -8,6 +8,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 200px;
 }
 
 .top-banner {
@@ -65,4 +66,15 @@ p {
     font-weight: 500;
     font-size: 1.2em;
     padding-left: 5px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: rgb(32, 26, 32);
+}
+
+h2 .goal {
+    background-image: linear-gradient(aqua, royalblue);
 }
