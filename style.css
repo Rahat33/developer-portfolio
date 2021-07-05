@@ -6,7 +6,7 @@ body {
     font-family: 'Poppins';
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 200px;
 }
@@ -75,6 +75,63 @@ p {
     color: rgb(32, 26, 32);
 }
 
+#mb {
+    margin-bottom: 140px;
+}
+
 h2 .goal {
     background-image: linear-gradient(aqua, royalblue);
+    border-radius: 4px;
+    color: rgb(114, 69, 69);
+    padding: 5px 10px;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.header {
+    color: rgb(92, 116, 141);
+    margin-bottom: 30px;
+}
+
+.h2-style {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(88, 2, 48);
+}
+
+h3 {
+    font-size: 22px;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 0 40px;
+    color: rgb(255, 72, 0);
+}
+
+.card {
+    width: 40%;
+    margin: 0 5%;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 8px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+#lc {
+    border-left: 10px solid;
+    border-image:linear-gradient(#F87E63, tomato) 20;
+}
+
+#rc {
+    border-left: 10px solid; 
+    border-image:linear-gradient(royalblue, aqua) 20;
+}
+
+footer p{
+    text-align: center;
+    color: teal;
 }
